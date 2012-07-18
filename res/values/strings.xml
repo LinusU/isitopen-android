@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Is it open?</string>
+    <string name="venue_restaurant">Restaurant</string>
+    <string name="venue_convenience">Convenience store</string>
+    <string name="venue_pharmacy">Pharmacy</string>
+    <string name="venue_cafe">Cafe</string>
+    <string name="venue_clothing">Clothing</string>
+    <string name="venue_retail">Retail</string>
+    <string name="venue_bank">Bank</string>
+</resources>

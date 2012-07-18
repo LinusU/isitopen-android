@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listitem"
+    >
+    <ImageView
+        android:id="@+id/listitem_status"
+        android:src="@drawable/status"
+        style="@style/listitem_status" />
+    <TextView
+        android:id="@+id/listitem_title"
+        style="@style/listitem_title" />
+</LinearLayout>

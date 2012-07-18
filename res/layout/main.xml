@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/mainscreen_title"
+        android:text="@string/app_name" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dip"
+                android:layout_marginTop="48dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+                <LinearLayout 
+                    android:layout_width="128dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dip"
+                    android:orientation="vertical"
+                    android:onClick="venueRestaurant" >
+                    <View
+                        android:id="@+id/venue_restaurant"
+                        style="@style/icon_mainscreen"
+                        android:background="@drawable/venue_restaurant" />
+                    <TextView
+                        style="@style/icon_mainscreen_text"
+                        android:text="@string/venue_restaurant" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="128dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dip"
+                    android:orientation="vertical"
+                    android:onClick="venueConvenience" >
+                    <View
+                        android:id="@+id/venue_convenience"
+                        style="@style/icon_mainscreen"
+                        android:background="@drawable/venue_convenience" />
+                    <TextView
+                        style="@style/icon_mainscreen_text"
+                        android:text="@string/venue_convenience" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dip"
+                android:layout_marginTop="48dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+                <LinearLayout
+                    android:layout_width="128dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dip"
+                    android:orientation="vertical"
+                    android:onClick="venuePharmacy" >
+                    <View
+                        android:id="@+id/venue_pharmacy"
+                        style="@style/icon_mainscreen"
+                        android:background="@drawable/venue_pharmacy" />
+                    <TextView
+                        style="@style/icon_mainscreen_text"
+                        android:text="@string/venue_pharmacy" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="128dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dip"
+                    android:orientation="vertical"
+                    android:onClick="venueCafe" >
+                    <View
+                        android:id="@+id/venue_cafe"
+                        style="@style/icon_mainscreen"
+                        android:background="@drawable/venue_cafe" />
+                    <TextView
+                        style="@style/icon_mainscreen_text"
+                        android:text="@string/venue_cafe" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dip"
+                android:layout_marginTop="48dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+                <LinearLayout
+                    android:layout_width="128dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dip"
+                    android:orientation="vertical"
+                    android:onClick="venueClothing" >
+                    <View
+                        android:id="@+id/venue_clothing"
+                        style="@style/icon_mainscreen"
+                        android:background="@drawable/venue_clothing" />
+                    <TextView
+                        style="@style/icon_mainscreen_text"
+                        android:text="@string/venue_clothing" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="128dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dip"
+                    android:orientation="vertical"
+                    android:onClick="venueBank" >
+                    <View
+                        android:id="@+id/venue_bank"
+                        style="@style/icon_mainscreen"
+                        android:background="@drawable/venue_bank" />
+                    <TextView
+                        style="@style/icon_mainscreen_text"
+                        android:text="@string/venue_bank" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
